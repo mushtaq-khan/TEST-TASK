@@ -8,6 +8,8 @@ connection.sync({alter:true});
 
 const app: Application = express()
 
+
+
 const port = parseInt(process.env.PORT) || 5000
 
 app.use('/graphql', graphqlHTTP({
