@@ -4,7 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "build": "rimraf ./build && tsc",
+    "test": "rimraf ./build && tsc",
     "start": "npm run build && nodemon build/app.js"
   },
   "author": "",
